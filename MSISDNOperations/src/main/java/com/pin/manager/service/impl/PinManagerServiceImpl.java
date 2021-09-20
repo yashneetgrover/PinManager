@@ -43,7 +43,7 @@ public class PinManagerServiceImpl implements PinManagerService {
 
 		// if existing pin count for a msisdn greater than the allowed count
 		
-		if(null == genRequest.getMsisdn() || "".equals(genRequest.getMsisdn())) {
+		if(null == genRequest.getMsisdn() || "".equals(genRequest.getMsisdn().trim())) {
 			
 			throw new InvalidMsisdnException();
 		}
