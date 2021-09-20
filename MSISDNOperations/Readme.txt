@@ -14,6 +14,9 @@ After the application has started running refer below request/response
 
 1. Use POST HTTP method to generate a PIN for a msisdn.
 
+ url - localhost:8095/pinmanager/pin
+	   localhost:8095/pinmanager/trial
+
 Request :  {
        
         "msisdn" : "+2342324455"
