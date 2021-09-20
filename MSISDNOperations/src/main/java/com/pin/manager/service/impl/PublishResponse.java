@@ -23,7 +23,6 @@ public class PublishResponse {
 		Response resp = new Response();
 		resp.setStatusCode(statusCode);
 		resp.setStatusMsg(statusMsg);
-		//resp.setResponse(response);
 		
 		return resp;
 	}
